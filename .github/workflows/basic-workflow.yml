@@ -1,6 +1,7 @@
 name: Workflow Basico
 
 on:
+  push:
   workflow_dispatch:
 
 jobs:
