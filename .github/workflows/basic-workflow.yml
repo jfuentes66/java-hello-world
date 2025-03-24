@@ -1,0 +1,15 @@
+name: Workflow Basico
+
+on:
+  workflow_dispatch:
+
+jobs:
+  CorreWorkflow:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Echo en Workflow
+        run: echo "Esta es la ejecución de mi primer workflow"
